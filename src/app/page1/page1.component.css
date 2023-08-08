@@ -1,0 +1,83 @@
+.transmit{
+    background-color: black;
+    margin: 2px;
+}
+
+.explanation{
+    padding: 10px;
+    border: solid red;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(240, 240, 64);
+    height: 40px;
+    font-size: larger;
+    background-color: red;
+}
+
+.node{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+.navlink{
+    border: solid yellowgreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+    font-size: larger;
+}
+
+.nodeandsend{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 100px;
+    flex-direction: column;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: yellow;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sendbutton{
+    width: 70px;
+    background-color: rgb(255, 80, 80);
+    margin: 10px;
+    border-color: red;
+}
+
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+}
+
+.connecting{
+    margin-left: 48px;
+    width: 2px;
+    background-color: black;
+}
+
+.alll{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: solid grey;
+}

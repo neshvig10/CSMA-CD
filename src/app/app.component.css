@@ -1,75 +1,20 @@
-.transmit{
-    background-color: black;
-    margin: 2px;
-}
-
-.explanation{
-
-}
-
-.node{
+.startlearningbutton{
     background-color: yellow;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
-}
-.navlink{
-    padding: 10px;
-    border: solid yellowgreen;
-    border-radius: 10px;
-    text-decoration: none;
-    color: blue;
-    margin: 10px;
+    border-color: yellow;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
     font-size: larger;
 }
 
-.nodeandsend{
-    display: flex;
-    margin-right: 50px;
-    margin-left: 100px;
-    flex-direction: column;
+.startlearninga{
+    text-decoration: none;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-}
-
-.navbar{
-    background-color: yellow;
-    height: 40px;
-    margin: 0px;
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.sendbutton{
-    width: 70px;
-    background-color: rgb(255, 80, 80);
-    margin: 10px;
-    border-color: red;
-}
-
-
-
-.all{
-    display: flex;
-    flex-direction: row;
-}
-
-.connecting{
-    margin-left: 48px;
-    width: 2px;
-    background-color: black;
-}
-
-.alll{
+.center{
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px;
-    border: solid grey;
 }
