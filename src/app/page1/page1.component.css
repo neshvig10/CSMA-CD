@@ -41,12 +41,11 @@
 
 .navlink{
     border-radius: 10px;
-    background-color: yellowgreen;
+    background-color: rgb(219, 223, 8);
     margin: 10px;
     padding: 5px;
     text-decoration: none;
     color: blue;
-    margin: 10px;
     font-size: larger;
 }
 
@@ -64,6 +63,7 @@ body{
     background-color: yellow;
     height: 40px;
     padding: 0px;
+    margin: -10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
