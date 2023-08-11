@@ -19,6 +19,8 @@
 .transmit{
     background-color: black;
     margin: 2px;
+    width: 15px;
+    height: 8px;
 }
 
 .explanation{
@@ -34,13 +36,13 @@
 
 .node{
     background-color: yellow;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 100px;
 }
 
 .navlink{
-    border-radius: 10px;
+    /* border-radius: 10px; */
     background-color: rgb(219, 223, 8);
     margin: 10px;
     padding: 5px;
@@ -49,9 +51,17 @@
     font-size: larger;
 }
 
-.nodeandsend{
+
+.nodeandsend1{
     display: flex;
     flex-direction: column;
+    margin-right: 130px;
+}
+
+.nodeandsend2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
 }
 
 body{
@@ -72,7 +82,8 @@ body{
 .sendbutton{
     width: 70px;
     background-color: rgb(255, 80, 80);
-    margin: 10px;
+    margin-left: 65px;
+    margin-top: 10px;
     border-radius: 5px;
     border-color: red;
 }
@@ -86,7 +97,7 @@ body{
 }
 
 .connecting{
-    margin-left: 48px;
+    margin-left: 100px;
     width: 2px;
     background-color: black;
 }
