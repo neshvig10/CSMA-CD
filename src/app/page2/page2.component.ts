@@ -3,7 +3,8 @@ import { Component, Renderer2, ElementRef, ViewChild } from '@angular/core';
 var uncounter = 0;
 var bncounter = 29;
 var collision = false;
-var backoffclicked=false;
+var backoffclicked=false; 
+var k = 0; // backoff parameter
 
 var messageAfterReach = "Node Sent by user Recieved Succesfully !";
 @Component({
@@ -42,6 +43,7 @@ export class Page2Component {
   @ViewChild('tw28',{static: true}) tw28!: ElementRef; 
   @ViewChild('tw29',{static: true}) tw29!: ElementRef; 
   @ViewChild('status',{static: true}) status!: ElementRef; 
+  @ViewChild('inputk',{static: true}) inputk!: ElementRef; 
 
 
   
@@ -54,10 +56,25 @@ export class Page2Component {
     backoffclicked=true;
   }
 
+  kcheck(){
+    console.log(k);
+    console.log(this.inputk.nativeElement.value);
+    
+    
+    if (this.inputk.nativeElement.value == k)
+    {
+      alert("correct !"); 
+    }
+    else{
+      alert("wrong !");
+    }
+  }
+
 
 
   un30(){
     uncounter=0;
+    k=0;
     this.tw29.nativeElement.style.backgroundColor = "black";
     this.statusDisplay(messageAfterReach);
   }
@@ -66,6 +83,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -92,6 +110,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -118,6 +137,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -144,6 +164,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -170,6 +191,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -195,6 +217,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -220,6 +243,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -245,6 +269,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -270,6 +295,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -295,6 +321,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -320,6 +347,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -358,6 +386,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -383,6 +412,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -408,6 +438,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -447,6 +478,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -473,6 +505,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -500,6 +533,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -527,6 +561,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -553,6 +588,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -578,6 +614,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -604,6 +641,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -631,6 +669,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -657,6 +696,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -699,6 +739,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -726,6 +767,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
@@ -752,6 +794,7 @@ export class Page2Component {
     uncounter++;
     if (Math.abs(uncounter-bncounter)<=1)
     {
+      k++;
       collision=true;
       this.statusDisplay("Collision occurred !");
       messageAfterReach="Damaged Packet Recieved !";
