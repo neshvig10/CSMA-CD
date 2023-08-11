@@ -49,6 +49,9 @@ export class Page1Component {
 
 
 
+
+
+
   un30(){
     uncounter=0;
     this.tw29.nativeElement.style.backgroundColor = "black";
