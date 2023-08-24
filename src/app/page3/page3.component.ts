@@ -5,7 +5,7 @@ var bncounter = 31;
 var collision = false;
 var backoffclicked=false; 
 var k = 0; // backoff parameter
-var signalcolor = "blue";
+var signalcolor = "cyan";
 var listening = 0;
 var botsigreached = false;
 var usersigreached = false;
@@ -106,7 +106,7 @@ export class Page3Component {
   un33(){
     if (botsigreached)
     {
-      signalcolor="blue";
+      signalcolor="cyan";
     }
     this.usernode.nativeElement.innerHTML="User Node";
     usersigreached = true;
@@ -1141,7 +1141,7 @@ export class Page3Component {
     usersigreached=false;
     listening = 2*this.packetsize.nativeElement.value;
     console.log(listening);
-    signalcolor = "blue";
+    signalcolor = "cyan";
     
     if (this.packetsize.nativeElement.value === '')
     {
@@ -1172,7 +1172,7 @@ export class Page3Component {
     this.tw1.nativeElement.style.backgroundColor = "black";
     if (usersigreached)
     {
-      signalcolor = "blue";
+      signalcolor = "cyan";
     }
       this.botNode();
   }
@@ -1511,7 +1511,7 @@ export class Page3Component {
   }
 
   ngOnInit(){
-    signalcolor = "blue"
+    signalcolor = "cyan"
     this.botNode();
   }
 }
