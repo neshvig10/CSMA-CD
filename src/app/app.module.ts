@@ -20,7 +20,7 @@ import { Page3Component } from './page3/page3.component'
       {path: '',component: Page0Component},
       {path: 'interference',component: Page1Component},
       {path: 'backoff',component: Page2Component},
-      {path: 'csmacd',component: Page3Component},
+      {path: 'minimumsize',component: Page3Component},
     ])
   ],
   providers: [],

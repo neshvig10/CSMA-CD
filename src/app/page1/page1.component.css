@@ -24,14 +24,14 @@
 }
 
 .explanation{
-    padding: 10px;
-    border: solid red;
-    border-radius: 5px;
-    text-decoration: none;
-    color: rgb(240, 240, 64);
-    height: 40px;
-    font-size: larger;
-    background-color: red;
+    margin-top: 100px;
+    background-color: rgb(255, 255, 103);
+}
+
+.alllll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .node{
@@ -88,6 +88,49 @@ body{
     border-color: red;
 }
 
+.inputk{    
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 215px;
+}
+
+.checkk{
+    height: 30px;
+    margin-left: 300px;
+    width: 118px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputn{
+    border-radius: 3px;
+    width: 40px;
+}
+
+.enterpacketsize{
+    width: 130px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.packets{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.kval{
+    display: flex;
+    flex-direction: column;
+}
 
 
 .all{
