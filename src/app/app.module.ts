@@ -23,6 +23,7 @@ import { Page4Component } from './page4/page4.component'
       {path: 'interference',component: Page1Component},
       {path: 'backoff',component: Page2Component},
       {path: 'minimumsize',component: Page3Component},
+      {path: 'example',component: Page4Component},
     ])
   ],
   providers: [],
