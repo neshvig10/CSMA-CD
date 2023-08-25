@@ -1,0 +1,150 @@
+.allll{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.status{
+    padding: 10px;
+    background-color: yellow;
+    height: 200px;
+    margin-left: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.transmit{
+    background-color: black;
+    margin: 2px;
+    width: 15px;
+    height: 8px;
+}
+
+.explanation{
+    margin-top: 100px;
+    background-color: rgb(255, 255, 103);
+}
+
+.alllll{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.node{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.navlink{
+    /* border-radius: 10px; */
+    background-color: rgb(219, 223, 8);
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: blue;
+    font-size: larger;
+}
+
+
+.nodeandsend1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 130px;
+}
+
+.nodeandsend2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 210px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    background-color: yellow;
+    height: 40px;
+    padding: 0px;
+    margin: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sendbutton{
+    width: 70px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 65px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.inputk{    
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 215px;
+}
+
+.checkk{
+    height: 30px;
+    margin-left: 300px;
+    width: 118px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+.inputn{
+    border-radius: 3px;
+    width: 40px;
+}
+
+.enterpacketsize{
+    width: 130px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.packets{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.kval{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.connecting{
+    margin-left: 100px;
+    width: 2px;
+    background-color: black;
+}
+
+.alll{
+    margin-right: 50px;
+}

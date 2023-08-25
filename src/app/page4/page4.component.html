@@ -1,1 +1,109 @@
-<p>page4 works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSMA/CD</title>
+  <!-- <link rel="stylesheet" href="./styles.css"> -->
+</head>
+<body>
+  <nav class="navbar">
+    <div>
+      <a class="navlink" href="interference">Interference</a>
+      <a class="navlink" href="backoff">Backoff</a>
+      <a class="navlink" href="minimumsize">Minimum Size</a>
+      <a class="navlink" href="example">Find it !</a>
+    </div>
+    <div>
+    </div>
+  </nav>
+
+  <div class="alllll">
+
+  <div class="explanation">
+     Now your work is to find the minumum packet size for this network whose speed of transfer is 0.5 MBPS <br>
+     The maximum time after which collision can happen is the  time t - which is the time taken to travel from one end to the other <br>
+     The collision can happen at time t = (travel time for this channel) and the damaged signal can reach back the node which sent it in t more time . Hence total time for which the channel should be listening is 2t. <br>
+     Now you can calculate the size of packet using the formula sizeof packet = speed of channel * time taken to travel <br>
+     Hint : The time taken for a signal to pass through the channel is 15 seconds <br>
+     Start guessing and find the minimum size ;) 
+
+  </div>
+
+  <div class="allll">
+
+  <div class="alll">
+
+  <div class="transmitwire">
+    <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button #tw1 id="tw1" class="transmit"></button>
+    <button #tw2 id="tw2" class="transmit"></button>
+    <button #tw3 id="tw3" class="transmit"></button>
+    <button #tw4 id="tw4" class="transmit"></button>
+    <button #tw5 id="tw5" class="transmit"></button>
+    <button #tw6 id="tw6" class="transmit"></button>
+    <button #tw7 id="tw7" class="transmit"></button>
+    <button #tw8 id="tw8" class="transmit"></button>
+    <button #tw9 id="tw9" class="transmit"></button>
+    <button #tw10 id="tw10" class="transmit"></button>
+    <button #tw11 id="tw11" class="transmit"></button>
+    <button #tw12 id="tw12" class="transmit"></button>
+    <button #tw13 id="tw13" class="transmit"></button>
+    <button #tw14 id="tw14" class="transmit"></button>
+    <button #tw15 id="tw15" class="transmit"></button>
+    <button #tw16 id="tw16" class="transmit"></button>
+    <button #tw17 id="tw17" class="transmit"></button>
+    <button #tw18 id="tw18" class="transmit"></button>
+    <button #tw19 id="tw19" class="transmit"></button>
+    <button #tw20 id="tw20" class="transmit"></button>
+    <button #tw21 id="tw21" class="transmit"></button>
+    <button #tw22 id="tw22" class="transmit"></button>
+    <button #tw23 id="tw23" class="transmit"></button>
+    <button #tw24 id="tw24" class="transmit"></button>
+    <button #tw25 id="tw25" class="transmit"></button>
+    <button #tw26 id="tw26" class="transmit"></button>
+    <button #tw27 id="tw27" class="transmit"></button>
+    <button #tw28 id="tw28" class="transmit"></button>
+    <button #tw29 id="tw29" class="transmit"></button>
+    </div>
+
+  <div class="all">
+  <div class="nodeandsend1">
+    <div class="connecting">|</div>
+    <button #usernode class="node">User Node</button>
+    <div class="packets">
+      <br>
+      <div><button class="enterpacketsize">Enter Packet Size</button></div>
+      <div><input #packetsize type="number" class="inputn"> MB</div>
+    </div>
+    <button (click)="sendNode()" class="sendbutton">Send Data</button>
+    <button (click)="backoff()" class="sendbutton">Back Off</button>
+  </div>
+  <div class="nodeandsend2"> 
+    <div class="connecting">|</div>
+     <button class="node">Bot Node</button>
+  </div>
+  </div>
+  </div>
+
+  <div>
+  <div #status class="status">
+    Status :
+  </div>
+  <div class="kval">
+    <input #inputk type="text" placeholder="Enter K value" class="inputk">
+    <button (click)="kcheck()" class="checkk">Check</button>
+  </div>
+  </div>
+
+
+  </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
