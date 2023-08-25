@@ -99,7 +99,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw29.nativeElement.style.backgroundColor = "red";
+      this.tw29.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un30();
       }, 500); 
@@ -126,7 +126,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw28.nativeElement.style.backgroundColor = "red";
+      this.tw28.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un29();
       }, 500); 
@@ -153,7 +153,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw27.nativeElement.style.backgroundColor = "red";
+      this.tw27.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un28();
       }, 500); 
@@ -180,7 +180,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw26.nativeElement.style.backgroundColor = "red";
+      this.tw26.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un27();
       }, 500); 
@@ -207,7 +207,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw25.nativeElement.style.backgroundColor = "red";
+      this.tw25.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un26();
       }, 500); 
@@ -233,7 +233,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw24.nativeElement.style.backgroundColor = "red";
+      this.tw24.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un25();
       }, 500); 
@@ -259,7 +259,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw23.nativeElement.style.backgroundColor = "red";
+      this.tw23.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un24();
       }, 500); 
@@ -285,7 +285,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw22.nativeElement.style.backgroundColor = "red";
+      this.tw22.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un23();
       }, 500); 
@@ -311,7 +311,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw21.nativeElement.style.backgroundColor = "red";
+      this.tw21.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un22();
       }, 500); 
@@ -337,7 +337,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw20.nativeElement.style.backgroundColor = "red";
+      this.tw20.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un21();
       }, 500); 
@@ -363,7 +363,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw19.nativeElement.style.backgroundColor = "red";
+      this.tw19.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un20();
       }, 500); 
@@ -376,7 +376,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw18.nativeElement.style.backgroundColor = "red";
+      this.tw18.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un19();
       }, 500); 
@@ -402,7 +402,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw17.nativeElement.style.backgroundColor = "red";
+      this.tw17.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un18();
       }, 500); 
@@ -428,7 +428,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw16.nativeElement.style.backgroundColor = "red";
+      this.tw16.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un17();
       }, 500); 
@@ -454,7 +454,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw15.nativeElement.style.backgroundColor = "red";
+      this.tw15.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un16();
       }, 500); 
@@ -467,7 +467,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw14.nativeElement.style.backgroundColor = "red";
+      this.tw14.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un15();
       }, 500); 
@@ -494,7 +494,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw13.nativeElement.style.backgroundColor = "red";
+      this.tw13.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un14();
       }, 500); 
@@ -521,7 +521,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw12.nativeElement.style.backgroundColor = "red";
+      this.tw12.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un13();
       }, 500); 
@@ -549,7 +549,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw11.nativeElement.style.backgroundColor = "red";
+      this.tw11.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un12();
       }, 500); 
@@ -577,7 +577,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw10.nativeElement.style.backgroundColor = "red";
+      this.tw10.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un11();
       }, 500); 
@@ -604,7 +604,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw9.nativeElement.style.backgroundColor = "red";
+      this.tw9.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un10();
       }, 500); 
@@ -630,7 +630,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw8.nativeElement.style.backgroundColor = "red";
+      this.tw8.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un9();
       }, 500); 
@@ -657,7 +657,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw7.nativeElement.style.backgroundColor = "red";
+      this.tw7.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un8();
       }, 500); 
@@ -685,7 +685,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw6.nativeElement.style.backgroundColor = "red";
+      this.tw6.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un7();
       }, 500); 
@@ -712,7 +712,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw5.nativeElement.style.backgroundColor = "red";
+      this.tw5.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un6();
       }, 500); 
@@ -727,7 +727,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw4.nativeElement.style.backgroundColor = "red";
+      this.tw4.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un5();
       }, 500); 
@@ -755,7 +755,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw3.nativeElement.style.backgroundColor = "red";
+      this.tw3.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un4();
       }, 500); 
@@ -783,7 +783,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw2.nativeElement.style.backgroundColor = "red";
+      this.tw2.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un3();
       }, 500); 
@@ -809,7 +809,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw1.nativeElement.style.backgroundColor = "red";
+      this.tw1.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.un2();
       }, 500); 
@@ -852,7 +852,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw1.nativeElement.style.backgroundColor = "red";
+      this.tw1.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn0();
       }, 500); 
@@ -867,7 +867,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw2.nativeElement.style.backgroundColor = "red";
+      this.tw2.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn1();
       }, 500); 
@@ -882,7 +882,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw3.nativeElement.style.backgroundColor = "red";
+      this.tw3.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn2();
       }, 500); 
@@ -897,7 +897,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw4.nativeElement.style.backgroundColor = "red";
+      this.tw4.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn3();
       }, 500); 
@@ -915,7 +915,7 @@ export class Page2Component {
     if (  collision)
       this.botNode();
     }
-    this.tw5.nativeElement.style.backgroundColor = "red";
+    this.tw5.nativeElement.style.backgroundColor = "cyan";
     setTimeout(() => {
       this.bn4();
     }, 500); 
@@ -928,7 +928,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw6.nativeElement.style.backgroundColor = "red";
+      this.tw6.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn5();
       }, 500); 
@@ -942,7 +942,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw7.nativeElement.style.backgroundColor = "red";
+      this.tw7.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn6();
       }, 500); 
@@ -956,7 +956,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw8.nativeElement.style.backgroundColor = "red";
+      this.tw8.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn7();
       }, 500); 
@@ -970,7 +970,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw9.nativeElement.style.backgroundColor = "red";
+      this.tw9.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn8();
       }, 500); 
@@ -984,7 +984,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw10.nativeElement.style.backgroundColor = "red";
+      this.tw10.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn9();
       }, 500); 
@@ -998,7 +998,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw11.nativeElement.style.backgroundColor = "red";
+      this.tw11.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn10();
       }, 500); 
@@ -1012,7 +1012,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw12.nativeElement.style.backgroundColor = "red";
+      this.tw12.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn11();
       }, 500); 
@@ -1026,7 +1026,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw13.nativeElement.style.backgroundColor = "red";
+      this.tw13.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn12();
       }, 500); 
@@ -1040,7 +1040,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw14.nativeElement.style.backgroundColor = "red";
+      this.tw14.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn13();
       }, 500); 
@@ -1054,7 +1054,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw15.nativeElement.style.backgroundColor = "red";
+      this.tw15.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn14();
       }, 500); 
@@ -1068,7 +1068,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw16.nativeElement.style.backgroundColor = "red";
+      this.tw16.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn15();
       }, 500); 
@@ -1082,7 +1082,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw17.nativeElement.style.backgroundColor = "red";
+      this.tw17.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn16();
       }, 500); 
@@ -1096,7 +1096,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw18.nativeElement.style.backgroundColor = "red";
+      this.tw18.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn17();
       }, 500); 
@@ -1110,7 +1110,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw19.nativeElement.style.backgroundColor = "red";
+      this.tw19.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn18();
       }, 500); 
@@ -1124,7 +1124,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw20.nativeElement.style.backgroundColor = "red";
+      this.tw20.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn19();
       }, 500); 
@@ -1139,7 +1139,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw21.nativeElement.style.backgroundColor = "red";
+      this.tw21.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn20();
       }, 500); 
@@ -1153,7 +1153,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw22.nativeElement.style.backgroundColor = "red";
+      this.tw22.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn21();
       }, 500); 
@@ -1168,7 +1168,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw23.nativeElement.style.backgroundColor = "red";
+      this.tw23.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn22();
       }, 500); 
@@ -1184,7 +1184,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw24.nativeElement.style.backgroundColor = "red";
+      this.tw24.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn23();
       }, 500); 
@@ -1199,7 +1199,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw25.nativeElement.style.backgroundColor = "red";
+      this.tw25.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn24();
       }, 500); 
@@ -1215,7 +1215,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw26.nativeElement.style.backgroundColor = "red";
+      this.tw26.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn25();
       }, 500); 
@@ -1230,7 +1230,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw27.nativeElement.style.backgroundColor = "red";
+      this.tw27.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn26();
       }, 500); 
@@ -1245,7 +1245,7 @@ export class Page2Component {
     }
     else
     {
-      this.tw28.nativeElement.style.backgroundColor = "red";
+      this.tw28.nativeElement.style.backgroundColor = "cyan";
       setTimeout(() => {
         this.bn27();
       }, 500); 
@@ -1254,7 +1254,7 @@ export class Page2Component {
 
   bn29(){
     bncounter--;
-    this.tw29.nativeElement.style.backgroundColor = "red";
+    this.tw29.nativeElement.style.backgroundColor = "cyan";
     setTimeout(() => {
       this.bn28();
     }, 500); 
