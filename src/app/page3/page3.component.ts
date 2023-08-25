@@ -122,6 +122,7 @@ export class Page3Component {
     {
       this.usernode.nativeElement.innerHTML="User Node : Sending Data"
     }
+    usersigreached = true;
     this.tw28.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
@@ -148,6 +149,7 @@ export class Page3Component {
     {
       this.usernode.nativeElement.innerHTML="User Node : Sending Data"
     }
+    usersigreached = true;
     this.tw27.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
@@ -172,6 +174,7 @@ export class Page3Component {
     {
       this.usernode.nativeElement.innerHTML="User Node : Sending Data"
     }
+    usersigreached = true;
     this.tw26.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
@@ -1180,7 +1183,6 @@ export class Page3Component {
   bn1(){
     bncounter--;
     this.tw2.nativeElement.style.backgroundColor = "black";
-
     {
       this.tw1.nativeElement.style.backgroundColor = signalcolor;
       setTimeout(() => {
