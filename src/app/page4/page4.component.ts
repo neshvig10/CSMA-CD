@@ -115,6 +115,37 @@ export class Page4Component {
     }
   }
 
+  changecolortoblack(){
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw2.nativeElement.style.backgroundColor = "black";
+      this.tw3.nativeElement.style.backgroundColor = "black";
+      this.tw4.nativeElement.style.backgroundColor = "black";
+      this.tw5.nativeElement.style.backgroundColor = "black";
+      this.tw6.nativeElement.style.backgroundColor = "black";
+      this.tw7.nativeElement.style.backgroundColor = "black";
+      this.tw8.nativeElement.style.backgroundColor = "black";
+      this.tw9.nativeElement.style.backgroundColor = "black";
+      this.tw10.nativeElement.style.backgroundColor = "black";
+      this.tw11.nativeElement.style.backgroundColor = "black";
+      this.tw12.nativeElement.style.backgroundColor = "black";
+      this.tw13.nativeElement.style.backgroundColor = "black";
+      this.tw14.nativeElement.style.backgroundColor = "black";
+      this.tw15.nativeElement.style.backgroundColor = "black";
+      this.tw16.nativeElement.style.backgroundColor = "black";
+      this.tw17.nativeElement.style.backgroundColor = "black";
+      this.tw18.nativeElement.style.backgroundColor = "black";
+      this.tw19.nativeElement.style.backgroundColor = "black";
+      this.tw20.nativeElement.style.backgroundColor = "black";
+      this.tw21.nativeElement.style.backgroundColor = "black";
+      this.tw22.nativeElement.style.backgroundColor = "black";
+      this.tw23.nativeElement.style.backgroundColor = "black";
+      this.tw24.nativeElement.style.backgroundColor = "black";
+      this.tw25.nativeElement.style.backgroundColor = "black";
+      this.tw26.nativeElement.style.backgroundColor = "black";
+      this.tw27.nativeElement.style.backgroundColor = "black";
+      this.tw28.nativeElement.style.backgroundColor = "black";
+      this.tw29.nativeElement.style.backgroundColor = "black";
+  }
 
   un33(){
     if (botsigreached)
@@ -139,6 +170,11 @@ export class Page4Component {
     this.tw28.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -166,6 +202,11 @@ export class Page4Component {
     this.tw27.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -191,6 +232,11 @@ export class Page4Component {
     this.tw26.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -223,6 +269,11 @@ export class Page4Component {
     this.tw25.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -256,6 +307,11 @@ export class Page4Component {
     this.tw24.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -289,6 +345,11 @@ export class Page4Component {
     this.tw23.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -322,6 +383,11 @@ export class Page4Component {
     this.tw22.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -355,6 +421,11 @@ export class Page4Component {
     this.tw21.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -387,6 +458,11 @@ export class Page4Component {
     this.tw20.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -419,6 +495,11 @@ export class Page4Component {
     this.tw19.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -451,6 +532,11 @@ export class Page4Component {
     this.tw18.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -483,6 +569,11 @@ export class Page4Component {
     this.tw17.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw18.nativeElement.style.backgroundColor = "black";
+      this.tw19.nativeElement.style.backgroundColor = "black";
+      this.tw20.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -515,6 +606,11 @@ export class Page4Component {
     this.tw16.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw17.nativeElement.style.backgroundColor = "black";
+      this.tw18.nativeElement.style.backgroundColor = "black";
+      this.tw19.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -547,6 +643,11 @@ export class Page4Component {
     this.tw15.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw16.nativeElement.style.backgroundColor = "black";
+      this.tw17.nativeElement.style.backgroundColor = "black";
+      this.tw18.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -579,6 +680,11 @@ export class Page4Component {
     this.tw14.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw15.nativeElement.style.backgroundColor = "black";
+      this.tw16.nativeElement.style.backgroundColor = "black";
+      this.tw17.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -611,6 +717,11 @@ export class Page4Component {
     this.tw13.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw14.nativeElement.style.backgroundColor = "black";
+      this.tw15.nativeElement.style.backgroundColor = "black";
+      this.tw16.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -643,6 +754,11 @@ export class Page4Component {
     this.tw12.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw13.nativeElement.style.backgroundColor = "black";
+      this.tw14.nativeElement.style.backgroundColor = "black";
+      this.tw15.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -675,6 +791,11 @@ export class Page4Component {
     this.tw11.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw12.nativeElement.style.backgroundColor = "black";
+      this.tw13.nativeElement.style.backgroundColor = "black";
+      this.tw14.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -707,6 +828,11 @@ export class Page4Component {
     this.tw10.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw11.nativeElement.style.backgroundColor = "black";
+      this.tw12.nativeElement.style.backgroundColor = "black";
+      this.tw13.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -740,6 +866,11 @@ export class Page4Component {
     this.tw9.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw10.nativeElement.style.backgroundColor = "black";
+      this.tw11.nativeElement.style.backgroundColor = "black";
+      this.tw12.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -773,6 +904,11 @@ export class Page4Component {
     this.tw8.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw9.nativeElement.style.backgroundColor = "black";
+      this.tw10.nativeElement.style.backgroundColor = "black";
+      this.tw11.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -807,6 +943,11 @@ export class Page4Component {
     this.tw7.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw8.nativeElement.style.backgroundColor = "black";
+      this.tw9.nativeElement.style.backgroundColor = "black";
+      this.tw10.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -841,6 +982,11 @@ export class Page4Component {
     this.tw6.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw7.nativeElement.style.backgroundColor = "black";
+      this.tw8.nativeElement.style.backgroundColor = "black";
+      this.tw9.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -874,6 +1020,11 @@ export class Page4Component {
     this.tw5.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw6.nativeElement.style.backgroundColor = "black";
+      this.tw7.nativeElement.style.backgroundColor = "black";
+      this.tw8.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -906,6 +1057,11 @@ export class Page4Component {
     this.tw4.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw5.nativeElement.style.backgroundColor = "black";
+      this.tw6.nativeElement.style.backgroundColor = "black";
+      this.tw7.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -939,6 +1095,11 @@ export class Page4Component {
     this.tw3.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw4.nativeElement.style.backgroundColor = "black";
+      this.tw5.nativeElement.style.backgroundColor = "black";
+      this.tw6.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -973,6 +1134,11 @@ export class Page4Component {
     this.tw2.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw3.nativeElement.style.backgroundColor = "black";
+      this.tw4.nativeElement.style.backgroundColor = "black";
+      this.tw5.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -1006,6 +1172,11 @@ export class Page4Component {
     this.tw1.nativeElement.style.backgroundColor = "black";
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw2.nativeElement.style.backgroundColor = "black";
+      this.tw3.nativeElement.style.backgroundColor = "black";
+      this.tw4.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -1039,6 +1210,9 @@ export class Page4Component {
     }
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw3.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -1072,6 +1246,9 @@ export class Page4Component {
     }
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw2.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -1105,6 +1282,9 @@ export class Page4Component {
     }
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+      this.tw1.nativeElement.style.backgroundColor = "black";
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {
@@ -1137,6 +1317,8 @@ export class Page4Component {
     }
     let x = Math.random();
     if (backoffclicked){
+      this.changecolortoblack()
+
       this.statusDisplay("User Clicked on Back Off");
       uncounter=0;
       setTimeout(() => {

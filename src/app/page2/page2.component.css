@@ -23,7 +23,8 @@
     height: 8px;
 }
 
-.explanation{
+.explanation{    
+    font-size: larger;
     margin-top: 100px;
     background-color: rgb(255, 255, 103);
 }
