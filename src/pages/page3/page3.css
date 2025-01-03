@@ -1,0 +1,144 @@
+.a{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.status{
+    padding: 10px;
+    background-color: yellow;
+    height: 200px;
+    margin-left: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.transmit{
+    background-color: black;
+    margin: 2px;
+    width: 15px;
+    height: 8px;
+}
+
+
+.node{
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.sendbutton{
+    width: 70px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 170px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.usernodeandsend{
+    display: flex;
+    flex-direction: column;
+}
+
+.nodes{
+    display: flex;
+    flex-direction: row;
+}
+
+.transmitwire{
+    margin-left: 190px;
+}
+
+.botnode{
+    margin-left: 170px;
+}
+
+button.enterpacketsize{
+    width: 130px;
+    background-color: rgb(255, 80, 80);
+    margin-left: 135px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.inputn{
+    margin-left: 215px;
+}
+
+
+@media (max-width: 480px) {
+
+.a{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-top: 100px;
+}
+
+
+.status{
+    padding: 10px;
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.transmitwire{
+    margin-left: 45px;
+}
+
+.transmit{
+    background-color: black;
+    margin: 1px;
+    width: 8px;
+    height: 2px;
+    min-width: 0px; 
+    min-height: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+.node{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    margin-left: 5px;
+}
+
+.sendbutton{
+    width: 45px;
+    background-color: rgb(255, 80, 80);
+    border-radius: 5px;
+    border-color: red;
+    margin-left: 30px;
+}
+
+.usernodeandsend{
+    display: flex;
+    flex-direction: column;
+}
+
+.nodes{
+    display: flex;
+    flex-direction: row;
+}
+
+.status{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.botnode{
+    margin-left: 70px;
+}
+    
+}
